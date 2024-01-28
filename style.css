@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-family: "Overpass", serif;
+  font-size: 15px;
+  background-color: hsl(216, 12%, 8%);
+}
+.rating-state-container {
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: hsl(213, 19%, 18%);
+  padding: 1.7rem 1.4rem;
+}
+
+.rating-state-container img {
+  background-color: hsl(213, 20%, 22%);
+  border-radius: 50%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+h1 {
+  color: hsl(0, 0%, 100%);
+  padding-bottom: 1rem;
+  font-size: 1.65rem;
+}
+p {
+  color: hsl(216, 12%, 54%);
+  padding-bottom: 2rem;
+  line-height: 1.2;
+  font-family: inherit;
+  font-weight: 400;
+}
+.num-rating {
+  display: flex;
+  gap: 1rem;
+}
+.ratings {
+  color: hsl(216, 12%, 54%);
+  width: 50px;
+  background-color: hsl(213, 13%, 22%);
+  border-radius: 50%;
+  text-align: center;
+  padding: 0.8rem;
+  margin-bottom: 1.25rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+button {
+  width: 100%;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  border: none;
+  padding: 1rem 1.5rem;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: "Overpass", serif;
+  font-weight: 700;
+  margin-bottom: 0.1rem;
+  cursor: pointer;
+}
+button:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+  transition: color 0.25s, background-color 0.25s;
+}
+.ratings:hover {
+  color: white;
+  background-color: hsl(25, 97%, 53%);
+  transition: color 0.25s, background-color 0.25s;
+}
+.ratings:focus {
+  color: white;
+  background-color: hsl(217, 12%, 63%);
+}
+
+#tnx {
+  display: none;
+}
+h2 {
+  color: white;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.res-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.rate-res {
+  border-radius: 30px;
+  background-color: hsl(213, 20%, 22%);
+  color: hsl(25, 97%, 53%);
+  font-weight: 700;
+  padding: 0.2rem 0.5rem 0.2rem;
+}
+
+.thanks-paragraph {
+  text-align: center;
+}
+.thanks-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 675px) {
+  .rating-state-container {
+    max-width: 340px;
+  }
+}
+@media (min-width: 768px) {
+  .rating-state-container {
+    max-width: 350px;
+  }
+  .num-rating {
+    display: flex;
+    gap: 1.5rem;
+  }
+}
