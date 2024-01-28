@@ -6,8 +6,8 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI/hub?share=true](https://your-solution-url.com)
+- Live Site URL: [https://belkysupreme22.github.io/ratingComponent.io/](https://your-live-site-url.com)
 
 ### Built with
 
@@ -23,4 +23,4 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ## Author
 
-- Frontend Mentor - [@elkysupreme22](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@belkysupreme22](https://www.frontendmentor.io/profile/yourusername)
